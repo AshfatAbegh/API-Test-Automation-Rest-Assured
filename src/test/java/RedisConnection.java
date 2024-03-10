@@ -38,4 +38,5 @@ public class VerifyOTP {
         Assert.assertNotEquals(response.getStatusCode(), 200);
 
         Assert.assertTrue(response.getBody().asString().contains("timer_expired"));
+        
     }
