@@ -30,6 +30,8 @@ public class EmailLoginTest {
 
     private void insertTestUser(String email, String password) throws SQLException {
         DB.getConnection().executeUpdate("INSERT INTO `profiles` (`email`, `password`, `isFromGoogle`) VALUES ('" + email + "', '" + password + "', 0)");
+        // ResultSet resultSet = DB.getConnection().executeQuery("SELECT * FROM `profiles`");
+        // resultSet.next(); - will be used when we want to fetch data from the database
     }
     
 
