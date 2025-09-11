@@ -33,7 +33,7 @@ public class FileUploadAndDownload {
     //     File myfile1 = new File("/home/ashfatrashid/Downloads/Body.json");
     //     File myfile2 = new File("/home/ashfatrashid/Downloads/Body.json");
        
-    //     //Array Approach for storing files but won't work for all typos of API
+    //     //Array Approach for storing files but won't work for all types of API
     //     //File filearr[] = {myfile1, myfile2};
 
     //     given()
